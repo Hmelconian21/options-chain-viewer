@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Local cache / data / logs
+cache/
+.cache/
+data/
+logs/
+*.log
+
+# Dated chain snapshots this tool writes, e.g. NVDA_2026-08-10.csv
+*_[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].csv
